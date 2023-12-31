@@ -1,0 +1,62 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+ 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron{
+  padding-top: 5rem;
+  padding-bottom: 0%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.col:hover{
+  cursor: pointer;
+}
+
+.skills, .Proyek {
+  margin: 0rem 2rem;
+}
+
+.social-media a {
+  text-decoration: none;
+   display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  border: .2rem solid white;
+  border-radius: 50%;
+  font-size: 2rem;
+  color: white;
+  transition: .5s ease;
+   margin: 1rem 1.5rem 3rem 0;
+}
+
+.social-media a:hover {
+   background: white;
+  color: black;
+  box-shadow: 0 0 1rem white;
+}
+
+.navbar,.active {
+  display: block;
+}
+.navbar a:hover,
+.navbar a.active {
+  font-weight: bold;
+}
+
+
+
+
+
